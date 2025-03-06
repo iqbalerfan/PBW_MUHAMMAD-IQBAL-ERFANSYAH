@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendaftaran</title>
+    <style>
+        .checkbox-inline {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="border: 1px solid black; padding: 20px; width: 300px;">
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email"><br><br>
+            <label>Jenis Kelamin:</label>
+            <label><input type="radio" name="gender" value="laki-laki"> Laki-laki</label>
+            <label><input type="radio" name="gender" value="perempuan"> Perempuan</label><br><br>
+            <label>Hobi:</label>
+            <div class="checkbox-inline">
+                <input type="checkbox" id="musik" value="musik">
+                <label for="musik">Musik</label>
+            </div>
+            <div class="checkbox-inline">
+                <input type="checkbox" id="olahraga" value="olahraga">
+                <label for="olahraga">Olahraga</label>
+            </div><br><br>
+            <label for="city">Pilih Kota:</label>
+            <select id="city">
+                <option value="jakarta">Jakarta</option>
+                <option value="bandung">Bandung</option>
+            </select><br><br>
+            <label for="file">Upload Foto:</label>
+            <input type="file" id="file"> <br><br>
+            <button type="submit">Daftar</button>
+        </form>
+    </div>
+</body>
+</html>
