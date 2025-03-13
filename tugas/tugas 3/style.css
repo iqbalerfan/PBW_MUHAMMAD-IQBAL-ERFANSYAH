@@ -11,7 +11,7 @@ body {
 
 /* Header */
 header {
-    background-color: rgb(154, 4, 4); /* Warna merah sesuai gambar */
+    background-color: rgb(154, 4, 4); 
     color: white;
     text-align: center;
     padding: 15px;
@@ -19,7 +19,7 @@ header {
 
 /* Navbar */
 nav {
-    background-color: #d61515; /* Warna merah tua sesuai gambar */
+    background-color: #d61515; 
     padding: 10px 0;
 }
 
@@ -45,7 +45,7 @@ nav ul li a {
 
 /* Efek Hover */
 nav ul li a:hover {
-    background: #a52a2a; /* Warna merah sedikit lebih terang saat hover */
+    background: #a52a2a; 
     border-radius: 5px;
 }
 
@@ -80,14 +80,14 @@ label {
     font-weight: bold;
 }
 
-/* Garis pembatas hanya untuk bagian tertentu */
+
 .form-section {
     padding-bottom: 10px;
     margin-bottom: 15px;
     border-bottom: 2px solid #bbb;
 }
 
-/* Input dan elemen formulir lainnya */
+
 input, select, textarea {
     width: 100%;
     padding: 8px;
@@ -115,7 +115,7 @@ button:hover {
     background: darkblue;
 }
 
-/* Sidebar lebih lebar */
+
 .sidebar {
     flex: 1.5;
     background: #ccc;
